@@ -1,0 +1,161 @@
+/*
+Zoom in transaform
+*/
+
+@-webkit-keyframes scale {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-moz-keyframes scale {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@-o-keyframes scale {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+#teachers,
+#overviews {
+    animation-name: scale;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+/*
+slide up effect
+*/
+
+@-webkit-keyframes slide {
+    0% {
+        transform: translate(0px, 100px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@-moz-keyframes slide {
+    0% {
+        transform: translate(0px, 100px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@-o-keyframes slide {
+    0% {
+        transform: translate(0px, 100px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0px, 100px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+#plan,
+#overviews {
+    animation-name: slide;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+
+/*
+fade in
+*/
+
+@-webkit-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.page {
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+/*
+fade in
+*/
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
